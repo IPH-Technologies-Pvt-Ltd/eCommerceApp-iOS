@@ -1,6 +1,6 @@
 //
 //  ProductDetailViewController.swift
-//  MobilePreviewer
+//  eCommerceApp
 //
 //  Created by IPH Technologies Pvt. Ltd. on 10/07/23.
 //

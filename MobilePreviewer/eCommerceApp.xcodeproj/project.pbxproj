@@ -33,7 +33,7 @@
 		3B48D4462A5BD3FF00DFCA2A /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		3B4A04D62A5845C0006E7B8D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		3B68BDF72A5C3E68007F35A3 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
-		3BA89F632A57F36400334686 /* MobilePreviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilePreviewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA89F632A57F36400334686 /* eCommerceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eCommerceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA89F662A57F36400334686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BA89F682A57F36400334686 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3BA89F6A2A57F36400334686 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		3BA89F5A2A57F36400334686 = {
 			isa = PBXGroup;
 			children = (
-				3BA89F652A57F36400334686 /* MobilePreviewer */,
+				3BA89F652A57F36400334686 /* eCommerceApp */,
 				3BA89F642A57F36400334686 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,12 +70,12 @@
 		3BA89F642A57F36400334686 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BA89F632A57F36400334686 /* MobilePreviewer.app */,
+				3BA89F632A57F36400334686 /* eCommerceApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3BA89F652A57F36400334686 /* MobilePreviewer */ = {
+		3BA89F652A57F36400334686 /* eCommerceApp */ = {
 			isa = PBXGroup;
 			children = (
 				3BA89F662A57F36400334686 /* AppDelegate.swift */,
@@ -89,7 +89,7 @@
 				3BA89F712A57F36A00334686 /* LaunchScreen.storyboard */,
 				3BA89F742A57F36A00334686 /* Info.plist */,
 			);
-			path = MobilePreviewer;
+			path = eCommerceApp;
 			sourceTree = "<group>";
 		};
 		3BA89F802A57FA7B00334686 /* Home */ = {
@@ -135,9 +135,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3BA89F622A57F36400334686 /* MobilePreviewer */ = {
+		3BA89F622A57F36400334686 /* eCommerceApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BA89F772A57F36A00334686 /* Build configuration list for PBXNativeTarget "MobilePreviewer" */;
+			buildConfigurationList = 3BA89F772A57F36A00334686 /* Build configuration list for PBXNativeTarget "eCommerceApp" */;
 			buildPhases = (
 				3BA89F5F2A57F36400334686 /* Sources */,
 				3BA89F602A57F36400334686 /* Frameworks */,
@@ -147,9 +147,9 @@
 			);
 			dependencies = (
 			);
-			name = MobilePreviewer;
+			name = eCommerceApp;
 			productName = MobilePreviewer;
-			productReference = 3BA89F632A57F36400334686 /* MobilePreviewer.app */;
+			productReference = 3BA89F632A57F36400334686 /* eCommerceApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -167,7 +167,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3BA89F5E2A57F36400334686 /* Build configuration list for PBXProject "MobilePreviewer" */;
+			buildConfigurationList = 3BA89F5E2A57F36400334686 /* Build configuration list for PBXProject "eCommerceApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -180,7 +180,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BA89F622A57F36400334686 /* MobilePreviewer */,
+				3BA89F622A57F36400334686 /* eCommerceApp */,
 			);
 		};
 /* End PBXProject section */
@@ -365,7 +365,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3EGXVN72T4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MobilePreviewer/Info.plist;
+				INFOPLIST_FILE = eCommerceApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -376,7 +376,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MobilePreviewer.MobilePreviewer;
+				PRODUCT_BUNDLE_IDENTIFIER = eCommerceApp.eCommerceApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -393,7 +393,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3EGXVN72T4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MobilePreviewer/Info.plist;
+				INFOPLIST_FILE = eCommerceApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -404,7 +404,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MobilePreviewer.MobilePreviewer;
+				PRODUCT_BUNDLE_IDENTIFIER = eCommerceApp.eCommerceApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -415,7 +415,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BA89F5E2A57F36400334686 /* Build configuration list for PBXProject "MobilePreviewer" */ = {
+		3BA89F5E2A57F36400334686 /* Build configuration list for PBXProject "eCommerceApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BA89F752A57F36A00334686 /* Debug */,
@@ -424,7 +424,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BA89F772A57F36A00334686 /* Build configuration list for PBXNativeTarget "MobilePreviewer" */ = {
+		3BA89F772A57F36A00334686 /* Build configuration list for PBXNativeTarget "eCommerceApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BA89F782A57F36A00334686 /* Debug */,
