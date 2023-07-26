@@ -29,6 +29,14 @@ The current version of the eCommerceApp is focused on displaying the UI elements
 
 The UI of the eCommerceApp can be customized by modifying one or more classes namely the HomeViewController, ProductDetailViewController, or PurchaseProductViewController class.
 
+# License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+# Acknowledgments
+This project was inspired by the eCommerce App in the Apple App Store.
+
+# Video
+
 
 
 
