@@ -1,4 +1,5 @@
 # eCommerceApp UI in Swift
+[![Swift](https://img.shields.io/badge/swift-%2320232a.svg?style=for-the-badge&logo=swift&logoColor=%23F05138)](https://swift.org/)
 
 This app aims to provide a user-friendly and visually appealing interface for an eCommerce platform implemented in Swift for iOS applications
  
